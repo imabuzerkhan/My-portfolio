@@ -23,7 +23,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className={`  bg-[#1A202C] pb-2 md:text-sm ${state ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
+        <nav className={` shadow-md sticky top-0 z-[999] bg-[#1A202C] pb-2 md:text-sm ${state ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
             <div className="gap-x-14 items-center max-w-screen-xl mx-auto px-4 md:flex md:px-8">
                 <div className="flex items-center justify-between py-5 md:block">
                     <Link href="/">
