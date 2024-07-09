@@ -5,3 +5,4 @@ const navigation = [
   { title: "Skills", path: "/skills" }
 ];
 export default navigation
+
