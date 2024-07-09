@@ -22,7 +22,7 @@ const HeroSection = () => {
                             </div>
                         </Link>
                         <Link href="#">
-                            <div className="block w-full rounded-md px-[117px] bg-[#3F444E]  sm:px-12 py-4 font-medium text-white text-xl shadow focus:outline-none focus:ring sm:w-auto">
+                            <div className="block w-full rounded-md px-[117px] bg-[#2f3747]  sm:px-12 py-4 font-medium text-white text-xl shadow focus:outline-none focus:ring sm:w-auto">
                                 LinkedIn
                             </div>
                         </Link>
