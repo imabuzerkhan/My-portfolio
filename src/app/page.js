@@ -5,7 +5,9 @@ export default function Home() {
   return (
    <>
    <HeroSection></HeroSection>
+  
    <Project/>
+
    </>
   );
 }
