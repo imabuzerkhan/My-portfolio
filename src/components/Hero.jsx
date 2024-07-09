@@ -8,7 +8,7 @@ const HeroSection = () => {
                     <h1 className="text-[1.5rem] leading-[1.5] font-extrabold sm:text-[3.75rem] sm:leading-[1.2] ">
                         Mohammad <span className='text-[#4FD1C5]'>Abuzer</span> Khan
                         <br />
-                    I'm  Frontend <span className='text-[#4FD1C5]'>Developer</span>
+                    I am  Frontend <span className='text-[#4FD1C5]'>Developer</span>
                     </h1>
 
                     <p className="mt-4 text-sm sm:text-xl/relaxed w-[300px] text-start sm:w-[600px] mx-auto text-gray-400 ">
