@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 const Project = () => {
   return (
-    <div className='bg-[#1A202C] mt-20 px-8 lg:px-40'>
-      <h1 className='text-3xl md:text-5xl font-extrabold mb-4'>Project section</h1>
+    <div className='bg-[#1A202C] mt-10 px-8 lg:px-40'>
+      <h1 className='text-3xl md:text-5xl font-extrabold mb-4'>Project  <span className="text-[#4FD1C5] capitalize " >section</span> </h1>
       <div className="project grid grid-cols-1 sm:grid-cols-2 gap-10">
         
         <div className="card bg-[#2f3747] mt-10 w-full rounded-lg">

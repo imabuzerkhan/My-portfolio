@@ -4,16 +4,12 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaGithub } from 'react-icons/fa'; 
+import navigation from '@/data';
 
 const Navbar = () => {
     const [state, setState] = useState(false);
 
-    const navigation = [
-        { title: "Home", path: "/" },
-        { title: "About", path: "/about" },
-        { title: "Contact", path: "/contact" },
-        { title: "Skills", path: "/skills" }
-    ];
+   
 
     useEffect(() => {
         document.onclick = (e) => {
