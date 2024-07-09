@@ -8,13 +8,14 @@ const Project = () => {
       <h1 className='text-3xl md:text-5xl font-extrabold mb-4'>Project section</h1>
       <div className="project grid grid-cols-1 sm:grid-cols-2 gap-10">
         
-        <div className="card bg-[#2f3747] mt-10 rounded-lg">
+        <div className="card bg-[#2f3747] mt-10 w-full rounded-lg">
           <Image 
-            className='rounded-tr-md rounded-tl-md  '
+            className='rounded-tr-md rounded-tl-md w-full h-auto'
             src='/Project-sec/Pariwar.png'
             alt='pariwar-website'
             width={600}
             height={200}
+            layout='responsive'
           />
           <div className="text px-2 py-2">
             <h1 className='text-2xl font-mono'>Pariwar Website</h1>
@@ -25,13 +26,14 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="card bg-[#2f3747] mt-10 rounded-lg">
+        <div className="card bg-[#2f3747] mt-10 w-full rounded-lg">
           <Image 
-            className='rounded-tr-md rounded-tl-md'
+            className='rounded-tr-md rounded-tl-md w-full h-auto'
             src='/Project-sec/Doctor-appoinment.png'
-            alt='pariwar-website'
+            alt='doctor-website'
             width={600}
             height={200}
+            layout='responsive'
           />
           <div className="text px-2 py-2">
             <h1 className='text-2xl font-mono'>Doctor Website</h1>
@@ -42,13 +44,14 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="card bg-[#2f3747] mt-10 rounded-lg">
+        <div className="card bg-[#2f3747] mt-10 w-full rounded-lg">
           <Image 
-            className='rounded-tr-md rounded-tl-md'
+            className='rounded-tr-md rounded-tl-md w-full h-auto'
             src='/Project-sec/modern-ui-ux.png'
-            alt='pariwar-website'
+            alt='modern-ui-ux'
             width={600}
             height={200}
+            layout='responsive'
           />
           <div className="text px-2 py-2">
             <h1 className='text-2xl font-mono'>Modern Ui/Ux</h1>
@@ -59,17 +62,18 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="card bg-[#2f3747] mt-10 rounded-lg">
+        <div className="card bg-[#2f3747] mt-10 w-full rounded-lg">
           <Image 
-            className='rounded-tr-md rounded-tl-md w-[600px] '
+            className='rounded-tr-md rounded-tl-md w-full h-auto'
             src='/Project-sec/Resturant Website.png'
-            alt='pariwar-website'
+            alt='restaurant-website'
             width={600}
             height={200}
+            layout='responsive'
           />
           <div className="text px-2 py-2">
-            <h1 className='text-2xl font-mono'>Resturant Website</h1>
-            <p className='my-2 font-medium text-gray-300'>It is a resturant, developed with Html css and javascript, offers a responsive and seamless user experience across all devices.</p>
+            <h1 className='text-2xl font-mono'>Restaurant Website</h1>
+            <p className='my-2 font-medium text-gray-300'>It is a restaurant, developed with HTML, CSS, and JavaScript, offering a responsive and seamless user experience across all devices.</p>
             <Link href='https://cosmic-mermaid-5bf6af.netlify.app' target='_blank'>
               <button className='bg-[#4FD1C5] my-3 px-3 py-2 text-gray-950 font-bold rounded-lg'>Visit Website</button>
             </Link>
