@@ -24,7 +24,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between py-5 md:block">
                     <Link href="/">
                         <Image
-                            src="/logo.svg"
+                            src="/profi.png"
                             width={120}
                             height={50}
                             alt="Float UI logo"
