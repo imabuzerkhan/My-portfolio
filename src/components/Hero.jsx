@@ -21,7 +21,7 @@ const HeroSection = () => {
                                 Download CV
                             </div>
                         </Link>
-                        <Link href="#" className="w-full sm:w-auto block">
+                        <Link href="https://www.linkedin.com/in/imabuzerkhan/"  target='_blank' className="w-full sm:w-auto block">
                             <div className="rounded-md px-8 py-4 text-lg font-medium bg-[#2f3747] text-white shadow focus:outline-none focus:ring">
                                 LinkedIn
                             </div>
