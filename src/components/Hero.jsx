@@ -11,7 +11,7 @@ const HeroSection = () => {
                         I am a Frontend <span className="text-[#4FD1C5]">Developer</span>
                     </h1>
 
-                    <p className="mt-4 text-base sm:text-lg w-full sm:w-[600px] md:w-[720px] mx-auto text-gray-400 text-center sm:text-start">
+                    <p className="mt-4 text-base sm:text-lg w-full sm:w-[600px] md:w-[610px] mx-auto text-gray-400 text-center sm:text-start">
                         I am a frontend developer specializing in building responsive applications using React and Next.js, creating seamless and efficient user experiences.
                     </p>
 
@@ -22,7 +22,7 @@ const HeroSection = () => {
                             </div>
                         </Link>
                         <Link href="#" className="w-full sm:w-auto block">
-                            <div className="rounded-md px-6 py-4 text-lg font-medium bg-[#2f3747] text-white shadow focus:outline-none focus:ring">
+                            <div className="rounded-md px-8 py-4 text-lg font-medium bg-[#2f3747] text-white shadow focus:outline-none focus:ring">
                                 LinkedIn
                             </div>
                         </Link>
