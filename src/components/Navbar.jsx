@@ -19,16 +19,11 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className={` shadow-md sticky top-0 z-[999] bg-[#1A202C] pb-2 md:text-sm ${state ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
+        <nav className={` shadow-md sticky top-0 z-[999] bg-[#1A202C] pb-2 md:text-sm ${state ? "  mx-2   md:mx-2 md:mt-0" : ""}`}>
             <div className="gap-x-14 items-center max-w-screen-xl mx-auto px-4 md:flex md:px-8">
                 <div className="flex items-center justify-between py-5 md:block">
                     <Link href="/">
-                        <Image
-                            src="/profi.png"
-                            width={120}
-                            height={50}
-                            alt="Float UI logo"
-                        />
+                       <h1 className=' sm:text-5xl text-3xl font-bold ' ><i>Ab<span className='text-[#4FD1C5]' >u</span>ze<span className='text-[#4FD1C5]'>r</span> </i></h1>
                     </Link>
                     <div className="md:hidden">
                         <button className="menu-btn text-white hover:text-gray-400"
