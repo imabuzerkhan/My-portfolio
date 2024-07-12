@@ -8,11 +8,11 @@ const aboutPage = () => {
       <section className="bg-[#1A202C] ">
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
           <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-            <h1 className="text-5xl font-bold leading-none sm:text-6xl">Hi, I'm a
+            <h1 className="text-5xl font-bold leading-none sm:text-6xl">Hi, I am a
               <span className="text-[#4FD1C5]"> Front-End Developer</span>
             </h1>
             <p className="mt-6 mb-8 text-lg sm:mb-12">I create responsive, modern web applications using the latest technologies.
-              <br className="hidden md:inline lg:hidden" /> Let's build something amazing together.
+              <br className="hidden md:inline lg:hidden" /> Lets build something amazing together.
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <Link href="https://github.com/your-github-username" passHref>
