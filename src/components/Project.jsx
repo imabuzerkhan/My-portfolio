@@ -11,10 +11,10 @@ const Project = () => {
         <div className="card bg-[#2f3747] mt-10 w-full rounded-lg">
           <Image 
             className='rounded-tr-md rounded-tl-md w-full h-auto'
-            src='/Project-sec/Pariwar.png'
+            src='/Pariwar.png'
             alt='pariwar-website'
             width={600}
-            height={200}
+            height={280}
             layout='responsive'
           />
           <div className="text px-2 py-2">
@@ -32,7 +32,7 @@ const Project = () => {
             src='/Project-sec/Doctor-appoinment.png'
             alt='doctor-website'
             width={600}
-            height={200}
+            height={280}
             layout='responsive'
           />
           <div className="text px-2 py-2">
@@ -50,7 +50,7 @@ const Project = () => {
             src='/Project-sec/modern-ui-ux.png'
             alt='modern-ui-ux'
             width={600}
-            height={200}
+            height={280}
             layout='responsive'
           />
           <div className="text px-2 py-2">
@@ -68,7 +68,7 @@ const Project = () => {
             src='/Project-sec/Resturant Website.png'
             alt='restaurant-website'
             width={600}
-            height={200}
+            height={280}
             layout='responsive'
           />
           <div className="text px-2 py-2">
