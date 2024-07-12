@@ -8,7 +8,11 @@ module.exports = {
     "./node_modules/@nextui-org/theme/dist/components/[object Object].js"
   ],
   theme: {
+  
     extend: {
+      screens: {
+        'des': { 'min': '1280px', 'max': '1300px' },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
